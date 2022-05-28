@@ -1,0 +1,100 @@
+What is Java?
+	Programming language
+	Platform -> JRE -> JVM
+	Secure and Object oriented programming language.
+
+How java program will be run?
+
+Location to find the compiler and the interpreter :-  JAVA_HOME -> C:\Program Files\Java\jdk1.8.0_172\bin
+1. Compilation
+		-> Syntax :- javac <ProgramName.java>
+		-> Example:- javac WelcomeToJava.java
+	The above command generates .class file ex:- WelcomeToJava.class
+	This file contains code which is understandable by system -> ByteCode
+
+2. Interpretation
+	-> Syntax :- java ProgramName
+	-> Syntax :- java WelcomeToJava
+	
+
+Features of Java
+	1. Simple
+	2. Object Oriented
+			Class
+				-> contains methods and variables
+						Fields -> Variables -> Instance/Static
+						Methods -> main, withdraw, deposit, checkBalance
+						Constructors -> Used to initialize the object
+						Blocks -> Instance/Static
+						Nested class and/or interfaces.	
+						Syntax :-
+							class Employee{
+								fields
+								methods...
+							}
+			Object
+				-> State -> Data/Value of the object
+				-> Behavior -> functionality of the object
+				-> Identity -> unique id,  used by JVM to identify each object uniquely
+				Definitions
+					-> Instance of a class
+					-> real world entity
+					-> entity which has state and behavior.
+					Syntax :-
+						Employee daniel = new Employee("Daniel", "Mervy");
+			Encapsulation
+			Inheritance
+			Abstraction
+				Abstract Class
+				Interfaces
+			Polymorphism		
+	3. Portable  
+	4. Platform Independent
+	5. Secured
+	6. Robust
+	7. Multithreaded
+	
+	
+private 
+	-> the members are only accessible inside the class
+public 
+	-> anyone from anywhere can access the members of the class
+protected
+	-> only members from current package and from other packages having parent child relationship 
+default
+	-> only members from current package
+	
+
+Data-types
+		1 Byte = 8 Bits
+		Primitive
+			-> DATATYPE -> SIZE -> DEFAULT_VALUE
+			->  boolean -> 1 bit 	-> false
+			-> char	-> 2 bytes 	-> '\u0000'
+			Number/Integer
+			-> byte	-> 1 byte 		-> 0
+			-> short	-> 2 bytes 	-> 0
+			-> int		-> 4 bytes 	-> 0
+			-> long	-> 8 bytes 	-> 0
+			Number/Decimals
+			-> float	-> 4 bytes 	-> 0.0f
+			-> double -> 8 bytes 	-> 0.0d
+
+		Non Primitive
+			->  Classes, Interfaces, and Arrays.			
+		Because of the presence of primitive types in java, Java is not a completely OOP Language
+		
+		Tackle -> Wrapper Classes -> 
+				boolean -> Boolean Class	
+				char -> Character Class	
+				byte -> Byte Class	
+				short -> Short Class	
+				int -> Integer Class	
+				long-> Long Class	
+				float-> Float Class	
+				double-> Double Class	
+		
+
+
+
+	

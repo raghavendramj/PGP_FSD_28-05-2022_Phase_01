@@ -1,0 +1,23 @@
+1. Download Java
+	https://download.oracle.com/java/18/latest/jdk-18_windows-x64_bin.msi
+	Set the path :-
+		1. Go to MyComputer/MyPC/ThisPC
+		2. Right Click and open properties
+		3. Click on Advanced System Settings
+		4. Click on Environment Variables
+		5. There will be 2 sections, click on second section(System Variables)
+			-> Click on path and say edit
+			-> Add New -> C:\Program Files\Java\jdk1.8.0_172\bin and Click on Ok till we close.
+		6. Restart your command prompt / open fresh command prompt.
+		7. Verify for java installation.
+			Open cmd prompt :- 
+					Cmd :- 			java -version
+					example:- 	java version "17.0.1" 2021-10-19 LTS		
+
+2. Eclipse Installation
+		https://www.eclipse.org/downloads/packages/release/oxygen/r/eclipse-ide-java-ee-developers
+		File: Windows x86_64
+
+3. Downloading and installing Apache Tomcat
+		https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.39/bin/
+		Filename: apache-tomcat-9.0.39.zip
