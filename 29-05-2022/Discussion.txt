@@ -1,0 +1,36 @@
+Object Oriented
+Encapsulation -> process of wrapping code and data into single unit.
+
+Inheritance
+	-> Mechanism in which one object acquires all the properties of a parent object.
+	
+Polymorphism
+	-> Overloading
+	-> Overriding
+Class
+-> contains methods and variables
+		Fields -> Variables -> Instance/Static
+		Methods -> main, withdraw, deposit, checkBalance
+		Constructors -> Used to initialize the object
+		Blocks -> Instance/Static
+		Nested class and/or interfaces.
+		Syntax :-
+			class Employee{
+				fields
+				methods...
+			}
+Object
+	-> State -> Data/Value of the object
+	-> Behavior -> functionality of the object
+	-> Identity -> unique id,  used by JVM to identify each object uniquely
+	Definitions
+		-> Instance of a class
+		-> real world entity
+		-> entity which has state and behavior.
+		Syntax :-
+			Employee daniel = new Employee("Daniel", "Mervy");
+Abstraction
+	-> Process of hiding the implementation details and showing only functionality to the user.
+	Ways to achieve abstraction	
+		Abstract Class -> 0 - 100% (Methods may or may not be abstract, but class will abstract for sure)
+		Interfaces 	-> 100% -> (By Default all the methods are public abstract)
