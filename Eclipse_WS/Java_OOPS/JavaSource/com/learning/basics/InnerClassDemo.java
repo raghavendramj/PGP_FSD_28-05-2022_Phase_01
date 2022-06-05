@@ -10,10 +10,16 @@ public class InnerClassDemo {
 			this.name = name;
 			this.foodType = foodType;
 		}
+
+		@Override
+		public String toString() {
+			return "Animal [name=" + name + ", foodType=" + foodType + "]";
+		}
 	}
 
 	public static void main(String[] args) {
-		Animal animal = new Animal("Lion", "Non-Vegeterian");
+		InnerClassDemo object = new InnerClassDemo();
+		InnerClassDemo.Animal animal = object.new Animal("Lion", "Non-Vegeterian");
+		System.out.println(animal);
 	}
-
 }
