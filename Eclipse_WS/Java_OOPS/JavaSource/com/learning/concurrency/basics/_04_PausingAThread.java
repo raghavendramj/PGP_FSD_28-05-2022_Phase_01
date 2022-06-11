@@ -19,9 +19,8 @@ public class _04_PausingAThread {
 		DownloadFileTask downloadFileTask = new DownloadFileTask();
 
 		for (int i = 0; i < 10; i++) {
-			Thread thread = new Thread(downloadFileTask);
+			Thread thread = new Thread(downloadFileTask, "MyNameGiven-"+i);
 			thread.start(); // internally -> invokes run method
 		}
 	}
-
 }
